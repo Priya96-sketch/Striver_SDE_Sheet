@@ -5,6 +5,11 @@
 //2nd Approach -> Insertion Sort kinda algorithm, where no extra space will be occupied.
 //Time Complexity for the 2nd Approach -> O(n1*m1). n1 -> for linear traversal through the first array. m1 -> for rearranging the elements in the array.
 // This is GAP METHOD.
+// In this/ method -> First add the number of elements of the two arrays and then divided by do. Repeat the process unill it becomes 1.
+//For example if 1st = 5 in size & 2nd = 3 in size.
+// Gap ->8/2 = 4
+// Gap -> 4/2=2
+// Gap -> 2/2 =1
 
 #include <iostream>
 #include <algorithm>
